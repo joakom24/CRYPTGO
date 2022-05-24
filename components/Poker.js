@@ -39,7 +39,7 @@ const Poker = () => {
             <Image src={less} alt="lessIcon" />
           </button>
           {/*Button move*/}
-          <div className=" flex justify-center w-64 border-1 rounded-full m-auto h-3   bg-pinkPoker">
+          <div className=" flex justify-center w-64 border-1 rounded-full m-auto h-3   bg-primary">
             <Image src={bars} alt="barsIcon" />
           </div>
           {/*Buttons add*/}
