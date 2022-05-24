@@ -35,15 +35,15 @@ const Poker = () => {
 
         <div className="bg-primary flex justify-between w-96 rounded-large max-h-12 border-buttom border-t-1 border-b-1">
           {/*Button less*/}
-          <button className="m-3  flex items-center  bg-pinkPoker rounded-full px-3 py-1 border-2 border-pinkPokerBorder shadow-4xl">
+          <button className="m-3  flex items-center  bg-pinkPoker rounded-full px-2 py-1 border-2 border-pinkPokerBorder shadow-4xl">
             <Image src={less} alt="lessIcon" />
           </button>
           {/*Button move*/}
           <div className=" flex justify-center w-64 border-1 rounded-full m-auto h-3   bg-pinkPoker">
-            <Image src={bars} alt="barsIcon" className="" />
+            <Image src={bars} alt="barsIcon" />
           </div>
           {/*Buttons add*/}
-          <button className="m-3 flex items-center  bg-pinkPoker rounded-full px-3 py-1 border-2 border-pinkPokerBorder shadow-4xl">
+          <button className="m-3 flex items-center  bg-pinkPoker rounded-full px-2 py-1 border-2 border-pinkPokerBorder shadow-4xl">
             <Image src={more} alt="moreIcon" />
           </button>
         </div>
