@@ -6,6 +6,9 @@ import bars from "../assets/barsIcon.png";
 import back from "../assets/backArrow.png";
 import expand from "../assets/expandIcon.png";
 import audio from "../assets/audioIcon.png";
+import cardOne from "../assets/cardDefault.png";
+import cardTwo from "../assets/cardJSpades.png";
+import cardThree from "../assets/cardAHeart.png";
 const Poker = () => {
   return (
     //PokerInterface
@@ -23,6 +26,26 @@ const Poker = () => {
       {/*ImagePokerTable*/}
       <div>
         <Image src={table} alt="tablePoker" />
+        <div>
+          <div className="absolute left-[37.76%] top-[45%]">
+            <Image src={cardThree} alt="cardThree" />
+          </div>
+          <div className="absolute left-[42.91%]  top-[45%] ">
+            <Image src={cardThree} alt="cardThree" />
+          </div>
+          <div className="absolute left-[48.06%]  top-[45%] ">
+            <Image src={cardTwo} alt="cardTwo" />
+          </div>
+          <div className="absolute left-[53.15%]  top-[45%] ">
+            <Image src={cardOne} alt="cardOne" />
+          </div>
+          <div className="absolute left-[53.15%]  top-[45%] ">
+            <Image src={cardOne} alt="cardOne" />
+          </div>
+          <div className="absolute left-[58.3%]  top-[45%] ">
+            <Image src={cardOne} alt="cardOne" />
+          </div>
+        </div>
       </div>
       {/*Buttons play*/}
       <div className="absolute bottom-0 left-0 m-4">
@@ -49,7 +72,7 @@ const Poker = () => {
         <div className="bg-primary flex justify-between items-center w-96 rounded-large max-h-12 border-buttom border-t-1 border-b-1">
           {/*Button less*/}
           <button className="ml-4 mt-2 mb-2  flex  items-center justify-center bg-pinkPoker rounded-full w-6 h-6 border-2 border-pinkPokerBorder shadow-4xl">
-            <Image src={less} alt="lessIcon" className="" />
+            <Image src={less} alt="lessIcon" />
           </button>
           {/*Button move*/}
           <div className=" flex justify-center w-64 border-1 rounded-full items-center h-3   bg-primary">

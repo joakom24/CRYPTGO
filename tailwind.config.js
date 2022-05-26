@@ -16,7 +16,7 @@ module.exports = {
     },
     colors: {
       buttom:
-        "linear-gradient(92.65deg, rgba(255, 255, 255, 0) -1.6%, rgba(255, 255, 255, 1) 57.12%, rgba(255, 255, 255, 0) 104.04%)",
+        "linear-gradient(92.65deg, rgba(255, 255, 255, 0) -1.6%, #FFFFFF 57.12%, rgba(255, 255, 255, 0) 104.04%)",
       black: "#000",
       primary: "#0B1E3E",
       secondary: "rgba(51, 233, 198, 0.15)",
