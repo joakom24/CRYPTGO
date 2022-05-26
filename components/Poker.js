@@ -76,7 +76,9 @@ const Poker = () => {
           </button>
           {/*Button move*/}
           <div className=" flex justify-center w-64 border-1 rounded-full items-center h-3   bg-primary">
-            <Image src={bars} alt="barsIcon" className="bg-pinkPoker " />
+            <button className="bg-pinkPoker w-5 h-5 rounded-full flex items-center justify-center">
+              <Image src={bars} alt="barsIcon" />
+            </button>
           </div>
           {/*Buttons add*/}
           <button className="mr-4 mt-2 mb-2  flex items-center justify-center w-6 h-6  bg-pinkPoker rounded-full  border-2 border-pinkPokerBorder shadow-4xl">
