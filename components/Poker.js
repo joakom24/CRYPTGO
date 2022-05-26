@@ -6,7 +6,7 @@ import bars from "../assets/bars.png";
 const Poker = () => {
   return (
     //PokerInterface
-    <div className="bg-black h-screen flex justify-center items-center">
+    <div className="bg-[url('../assets/backgroundPoker.png')] bg-no-repeat bg-cover left-0 top-0 h-screen flex justify-center items-center">
       {/*ImagePokerTable*/}
       <div>
         <Image src={table} alt="tablePoker" />

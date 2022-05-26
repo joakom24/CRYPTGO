@@ -21,7 +21,6 @@ module.exports = {
       primary: "#0B1E3E",
       secondary: "rgba(51, 233, 198, 0.15)",
       white: "#fff",
-      backgroundPoker: "rgba(51, 233, 198, 0.132);",
       pinkPoker: "#FE17FF80",
       pinkPokerBorder: "#FE17FF",
     },
