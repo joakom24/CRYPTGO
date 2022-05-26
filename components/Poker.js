@@ -8,9 +8,10 @@ const Poker = () => {
   return (
     //PokerInterface
     <div className="bg-[url('../assets/backgroundPoker.png')] bg-no-repeat bg-cover left-0 top-0 h-screen flex justify-center items-center">
-      <div className="">
+      {/*BackArrowIcon*/}
+      <button className=" absolute left-[11.17%] right-[88.29%] top-[7.42%] bottom-[90.92%]">
         <Image src={back} alt="backIcon" />
-      </div>
+      </button>
       {/*ImagePokerTable*/}
       <div>
         <Image src={table} alt="tablePoker" />

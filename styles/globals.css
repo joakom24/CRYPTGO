@@ -16,3 +16,10 @@ html, body {
     font-size: 20px;
     line-height: 24px;
 }
+
+.button { 
+    left: 11.17%;
+    right: 88.29%;
+    top: 7.42%;
+    bottom: 90.92%;
+}
