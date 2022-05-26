@@ -4,13 +4,21 @@ import less from "../assets/lessIcon.png";
 import more from "../assets/moreIcon.png";
 import bars from "../assets/barsIcon.png";
 import back from "../assets/backArrow.png";
+import expand from "../assets/expandIcon.png";
+import audio from "../assets/audioIcon.png";
 const Poker = () => {
   return (
     //PokerInterface
     <div className="bg-[url('../assets/backgroundPoker.png')] bg-no-repeat bg-cover left-0 top-0 h-screen flex justify-center items-center">
       {/*BackArrowIcon*/}
-      <button className=" absolute left-[11.17%] right-[88.29%] top-[7.42%] bottom-[90.92%]">
+      <button className=" absolute left-[11.17%] right-[88.29%] top-[7.42%] bottom-[90.92%] ">
         <Image src={back} alt="backIcon" />
+      </button>
+      <button className=" absolute left-[84.71%] right-[14.08%] top-[7.23%] bottom-[90.82%]">
+        <Image src={expand} alt="expandIcon" />
+      </button>
+      <button className=" absolute left-[87.4%]  top-[7.42%]  ">
+        <Image src={audio} alt="audioIcon" />
       </button>
       {/*ImagePokerTable*/}
       <div>
