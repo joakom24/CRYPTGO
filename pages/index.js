@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Poker from "../components/Poker";
+import Poker from "../components/Games/Poker/Poker.js";
 
 export default function Home() {
   return (
