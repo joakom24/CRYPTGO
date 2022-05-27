@@ -1,6 +1,9 @@
 import Image from "next/image";
+import UserLayout from "./UserLayout";
 import table from "../assets/tablePoker.png";
 import less from "../assets/lessIcon.png";
+import money from "../assets/money.png";
+import pot from "../assets/pot.png";
 import more from "../assets/moreIcon.png";
 import bars from "../assets/barsIcon.png";
 import back from "../assets/backArrow.png";
@@ -26,7 +29,37 @@ const Poker = () => {
       {/*ImagePokerTable*/}
       <div>
         <Image src={table} alt="tablePoker" />
+        <div className="absolute left-[45%]  top-[40%]">
+          <Image src={pot} alt="pot" />
+        </div>
         <div>
+          <div className="absolute left-[650px] top-[544px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[580px] top-[470px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[620px] top-[364px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[900px] top-[544px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[1200px] top-[544px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[1300px] top-[470px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[1250px] top-[364px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[800px] top-[334px]">
+            <Image src={money} alt="money" />
+          </div>
+          <div className="absolute left-[1100px] top-[334px]">
+            <Image src={money} alt="money" />
+          </div>
           <div className="absolute left-[37.76%] top-[45%]">
             <Image src={cardThree} alt="cardThree" />
           </div>
@@ -46,6 +79,7 @@ const Poker = () => {
             <Image src={cardOne} alt="cardOne" />
           </div>
         </div>
+        <UserLayout />
       </div>
       {/*Buttons play*/}
       <div className="absolute bottom-0 left-0 m-4">
