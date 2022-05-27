@@ -50,15 +50,15 @@ const Poker = () => {
       {/*Buttons play*/}
       <div className="absolute bottom-0 left-0 m-4">
         {/*Button Fold*/}
-        <button className="mr-4 bg-secondary  shadow-3xl text-white border-2 rounded-full px-5 py-7 border-white">
+        <button className="mr-4   shadow-3xl text-white border-2 rounded-full px-5 py-7 border-white hover:bg-secondary hover:border-2 hover:border-borders ">
           FOLD
         </button>
         {/*Button Check*/}
-        <button className="mr-4 bg-secondary  shadow-3xl text-white border-2 rounded-full px-5 py-7 border-white">
+        <button className="mr-4 hover:bg-secondary hover:border-2 hover:border-borders  shadow-3xl text-white border-2 rounded-full px-5 py-7 border-white">
           CHECK
         </button>
         {/*Button Raise to*/}
-        <button className="bg-secondary  shadow-3xl text-white border-2 rounded-full px-5 py-7 border-white">
+        <button className="hover:bg-secondary hover:border-2 hover:border-borders  shadow-3xl text-white border-2 rounded-full px-5 py-7 border-white">
           RAISE TO
         </button>
       </div>

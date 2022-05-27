@@ -19,6 +19,7 @@ module.exports = {
         "linear-gradient(92.65deg, rgba(255, 255, 255, 0) -1.6%, #FFFFFF 57.12%, rgba(255, 255, 255, 0) 104.04%)",
       black: "#000",
       primary: "#0B1E3E",
+      borders: "#33E9E9",
       secondary: "rgba(51, 233, 198, 0.15)",
       white: "#fff",
       pinkPoker: "#FE17FF80",
@@ -27,7 +28,7 @@ module.exports = {
 
     extend: {
       boxShadow: {
-        "3xl": "0 0 50px  rgba(51, 233, 198, 0.132)",
+        "3xl": "0 0 50px  rgba(51, 233, 198, 0.3)",
         "4xl": "1px 2px 4px rgba(0, 0, 0, 0.91)",
       },
       dropShadow: {
