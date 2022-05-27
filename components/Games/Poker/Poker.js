@@ -5,13 +5,15 @@ import money from "../../../assets/money.png";
 import memoji from "../../../assets/memoji.png";
 import pot from "../../../assets/pot.png";
 import more from "../../../assets/moreIcon.png";
-import bars from "../../../assets/barsIcon.png";
+
 import back from "../../../assets/backArrow.png";
 import expand from "../../../assets/expandIcon.png";
 import audio from "../../../assets/audioIcon.png";
 import cardOne from "../../../assets/cardDefault.png";
 import cardTwo from "../../../assets/cardJSpades.png";
 import cardThree from "../../../assets/cardAHeart.png";
+import ButtonMove from "./ButtonMove";
+import ButtonNumber from "./ButtonNumber";
 const Poker = () => {
   return (
     //PokerInterface
@@ -109,9 +111,7 @@ const Poker = () => {
       {/*Buttons right*/}
       <div className="absolute bottom-6 text-white right-4 flex ">
         {/*Buttom number*/}
-        <button className="mr-2  bg-primary px-4 py-4 rounded-sm  border-t-1 border-buttom border-b-1 drop-shadow-5xl">
-          20
-        </button>
+        <ButtonNumber />
 
         <div className="bg-primary flex justify-between items-center w-96 rounded-large max-h-12 border-buttom border-t-1 border-b-1">
           {/*Button less*/}
@@ -119,11 +119,7 @@ const Poker = () => {
             <Image src={less} alt="lessIcon" />
           </button>
           {/*Button move*/}
-          <div className=" flex justify-center w-64 border-1 rounded-full items-center h-3   bg-primary">
-            <button className="bg-pinkPoker w-5 h-5 rounded-full flex items-center justify-center">
-              <Image src={bars} alt="barsIcon" />
-            </button>
-          </div>
+          <ButtonMove />
           {/*Buttons add*/}
           <button className="mr-4 mt-2 mb-2  flex items-center justify-center w-6 h-6  bg-pinkPoker rounded-full  border-2 border-pinkPokerBorder shadow-4xl">
             <Image src={more} alt="moreIcon" />
