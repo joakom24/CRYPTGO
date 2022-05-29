@@ -1,4 +1,4 @@
-import bars from "../../../assets/barsIcon.png";
+import bars from "../../../../assets/barsIcon.png";
 import Image from "next/image";
 const ButtonMove = () => {
   return (
