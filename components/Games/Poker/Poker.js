@@ -15,7 +15,10 @@ import User from "./User";
 const Poker = () => {
   return (
     //PokerInterface
-    <div className="bg-[url('../assets/backgroundPoker.png')] bg-no-repeat bg-cover left-0 top-0 h-screen flex justify-center items-center">
+    <div
+      id="gameview"
+      className="bg-[url('../assets/backgroundPoker.png')] bg-no-repeat bg-cover left-0 top-0 h-screen flex justify-center items-center"
+    >
       <ButtonsTop />
       {/*ImagePokerTable*/}
       <div>
