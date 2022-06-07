@@ -12,6 +12,7 @@ import ButtonsTop from "./Buttons/ButtonsTop";
 import Money from "./Money";
 import Cards from "./Cards";
 import User from "./User";
+import Winner from "../../../assets/winner.png";
 const Poker = () => {
   return (
     //PokerInterface
@@ -49,6 +50,9 @@ const Poker = () => {
           {/*Buttons add*/}
           <ButtonAdd />
         </div>
+      </div>
+      <div className="absolute left-[1250px] bottom-[420px]">
+        <Image src={Winner} alt="img" />
       </div>
     </div>
   );

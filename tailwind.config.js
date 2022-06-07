@@ -17,6 +17,10 @@ module.exports = {
     colors: {
       user: "rgba(244, 116, 225, 1)",
       userTwo: " rgba(244, 116, 225, 0)",
+      userThree: "rgba(0, 168, 168, 1)",
+      userFour: "rgba(0, 168, 168, 0)",
+      userFive: "rgba(177, 255, 247, 1)",
+      userSix: "rgba(177, 255, 247, 0)",
       buttom:
         "linear-gradient(92.65deg, rgba(255, 255, 255, 0) -1.6%, #FFFFFF 57.12%, rgba(255, 255, 255, 0) 104.04%)",
       black: "#000",
@@ -27,6 +31,8 @@ module.exports = {
       pinkPoker: "#FE17FF80",
       pinkPokerBorder: "#FE17FF",
       borderUser: "#F474E1",
+      borderUser2: "#00A8A8",
+      borderUser3: "rgba(177, 255, 247, 1)",
       bgUser: "#DBD1FC",
     },
 
