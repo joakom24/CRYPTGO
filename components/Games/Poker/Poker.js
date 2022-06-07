@@ -51,7 +51,7 @@ const Poker = () => {
           <ButtonAdd />
         </div>
       </div>
-      <div className="absolute left-[1250px] bottom-[420px]">
+      <div className="absolute left-[78%] bottom-[40%]">
         <Image src={Winner} alt="img" />
       </div>
     </div>

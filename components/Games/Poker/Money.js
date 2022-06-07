@@ -3,31 +3,31 @@ import money from "../../../assets/money.png";
 const Money = () => {
   return (
     <div>
-      <div className="absolute left-[450px] top-[564px]">
+      <div className="absolute left-[30%] top-[59%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[380px] top-[490px]">
+      <div className="absolute left-[25%] top-[51%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[420px] top-[384px]">
+      <div className="absolute left-[27%] top-[39%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[750px] top-[554px]">
+      <div className="absolute left-[48%] top-[58%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[1000px] top-[564px]">
+      <div className="absolute left-[63%] top-[59%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[1100px] top-[490px]">
+      <div className="absolute left-[69%] top-[52%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[1050px] top-[384px]">
+      <div className="absolute left-[69%] top-[39%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[600px] top-[334px]">
+      <div className="absolute left-[37%] top-[33%]">
         <Image src={money} alt="money" />
       </div>
-      <div className="absolute left-[900px] top-[334px]">
+      <div className="absolute left-[58%] top-[33%]">
         <Image src={money} alt="money" />
       </div>
     </div>
