@@ -20,12 +20,13 @@ const Poker = () => {
         <ButtonsTop />
         {/*ImagePokerTable*/}
         <Table />
+        {/*POT*/}
         <Pot />
-        <div>
-          {/*MoneyImg*/}
-          <Money />
-          <Cards />
-        </div>
+        {/*MoneyImg*/}
+        <Money />
+        {/*Cards*/}
+        <Cards />
+        {/*Users*/}
         <User />
         {/*Buttons play*/}
         <div className="absolute bottom-0 left-0 m-4">
