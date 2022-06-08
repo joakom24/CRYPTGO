@@ -21,6 +21,8 @@ module.exports = {
       userFour: "rgba(0, 168, 168, 0)",
       userFive: "rgba(177, 255, 247, 1)",
       userSix: "rgba(177, 255, 247, 0)",
+      userSeven: "rgba(27, 0, 28, 1)",
+      userEight: "rgba(143, 255, 241, 1)",
       userPoker: "#BDBDBD",
       userPoker2: "#8FFFF1",
       buttom:
