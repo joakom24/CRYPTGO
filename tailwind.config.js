@@ -41,6 +41,12 @@ module.exports = {
     },
 
     extend: {
+      width: {
+        1024: "70vw",
+      },
+      height: {
+        1024: "calc( 70vw / 16 * 9 )",
+      },
       boxShadow: {
         "3xl": "0 0 50px  rgba(51, 233, 198, 0.3)",
         "4xl": "1px 2px 4px rgba(0, 0, 0, 0.91)",

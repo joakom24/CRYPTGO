@@ -32,27 +32,26 @@ const ButtonsTop = () => {
   };
 
   return (
-    <div>
+    <section className="absolute h-full w-full flex  items-start">
       {/*BackArrowIcon*/}
-      <button className=" absolute left-[11.17%] right-[88.29%] top-[7.42%] bottom-[90.92%] ">
+      <button>
         <Image src={back} alt="backIcon" />
       </button>
-      {/*ExpandIcon*/}
-      <button
-        className=" absolute left-[84.71%] right-[14.08%] top-[7.23%] bottom-[90.82%]"
-        onClick={() => fullscreenHandler()}
-      >
-        <Image
-          src={expand}
-          alt="expandIcon"
-          onClick={() => fullscreenHandler()}
-        />
-      </button>
-      {/*AudioIcon*/}
-      <button className=" absolute left-[87.4%]  top-[7.42%]  ">
-        <Image src={audio} alt="audioIcon" />
-      </button>
-    </div>
+      <div className="flex h-full w-full items-start justify-end gap-8">
+        {/*ExpandIcon*/}
+        <button onClick={() => fullscreenHandler()}>
+          <Image
+            src={expand}
+            alt="expandIcon"
+            onClick={() => fullscreenHandler()}
+          />
+        </button>
+        {/*AudioIcon*/}
+        <button>
+          <Image src={audio} alt="audioIcon" />
+        </button>
+      </div>
+    </section>
   );
 };
 
