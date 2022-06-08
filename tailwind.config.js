@@ -21,6 +21,8 @@ module.exports = {
       userFour: "rgba(0, 168, 168, 0)",
       userFive: "rgba(177, 255, 247, 1)",
       userSix: "rgba(177, 255, 247, 0)",
+      userPoker: "#BDBDBD",
+      userPoker2: "#8FFFF1",
       buttom:
         "linear-gradient(92.65deg, rgba(255, 255, 255, 0) -1.6%, #FFFFFF 57.12%, rgba(255, 255, 255, 0) 104.04%)",
       black: "#000",
@@ -40,6 +42,8 @@ module.exports = {
       boxShadow: {
         "3xl": "0 0 50px  rgba(51, 233, 198, 0.3)",
         "4xl": "1px 2px 4px rgba(0, 0, 0, 0.91)",
+        "8xl": "1px 2px 4px rgba(0, 0, 0, 0.91)",
+        "7xl": "2px 0px 5px #000000",
       },
       dropShadow: {
         "4xl": "2px 0px 2px rgba(0, 0, 0, 0.25)",

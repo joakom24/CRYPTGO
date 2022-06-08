@@ -24,8 +24,8 @@ const Poker = () => {
       {/*ImagePokerTable*/}
       <div>
         <Image src={table} alt="tablePoker" />
-        <div className="absolute left-[45%]  top-[40%]">
-          <Image src={pot} alt="pot" />
+        <div className="absolute left-[42%]  top-[36%]">
+          <Image src={pot} alt="pot" width={230} height={80} />
         </div>
         <div>
           {/*MoneyImg*/}
