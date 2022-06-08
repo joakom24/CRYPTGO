@@ -1,7 +1,4 @@
 import Image from "next/image";
-//Image
-
-import pot from "../../../assets/pot.png";
 //Components
 import ButtonMove from "./Buttons/ButtonMove";
 import ButtonNumber from "./Buttons/ButtonNumber";
@@ -14,6 +11,7 @@ import Cards from "./Cards";
 import User from "./User";
 import Winner from "../../../assets/winner.png";
 import Table from "./Table";
+import Pot from "./Pot";
 const Poker = () => {
   return (
     //PokerInterface
@@ -22,9 +20,7 @@ const Poker = () => {
         <ButtonsTop />
         {/*ImagePokerTable*/}
         <Table />
-        <div className="absolute left-[42%]  top-[36%]">
-          <Image src={pot} alt="pot" width={230} height={80} />
-        </div>
+        <Pot />
         <div>
           {/*MoneyImg*/}
           <Money />

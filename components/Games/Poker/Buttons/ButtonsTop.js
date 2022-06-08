@@ -17,7 +17,7 @@ const ButtonsTop = () => {
         /* IE11 */
         document.msExitFullscreen();
       }
-    } else if (!fullscreen) {
+    } else {
       if (elem.requestFullscreen) {
         elem.requestFullscreen();
       } else if (elem.webkitRequestFullscreen) {
@@ -37,7 +37,7 @@ const ButtonsTop = () => {
       <button>
         <Image src={back} alt="backIcon" />
       </button>
-      <div className="flex h-full w-full items-start justify-end gap-8">
+      <div className="flex z-10 h-full w-full items-start justify-end gap-8">
         {/*ExpandIcon*/}
         <button onClick={() => fullscreenHandler()}>
           <Image
