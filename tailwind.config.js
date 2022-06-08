@@ -9,6 +9,8 @@ module.exports = {
       2: "2px",
     },
     borderRadius: {
+      pot: "0px 20px 20px 0",
+      pot2: "20px 0px 0px 20px",
       large: "53px",
       full: "9999px",
       rounded: "0.25rem",
@@ -16,6 +18,9 @@ module.exports = {
     },
     colors: {
       user: "rgba(244, 116, 225, 1)",
+      pot: "#FFAB2D",
+      pot4: "#FFD700",
+      pot3: "rgb(234 179 8)",
       userTwo: " rgba(244, 116, 225, 0)",
       userThree: "rgba(0, 168, 168, 1)",
       userFour: "rgba(0, 168, 168, 0)",
@@ -54,6 +59,7 @@ module.exports = {
         "7xl": "2px 0px 5px #000000",
       },
       dropShadow: {
+        "1xl": "0 2px 2px rgba(0,0,0,0.55)",
         "4xl": "2px 0px 2px rgba(0, 0, 0, 0.25)",
         "5xl": "0 4px 4px rgba(0,0,0,0.25)",
         "6xl": "2px  3px rgba(0,0,0,0.81)",
