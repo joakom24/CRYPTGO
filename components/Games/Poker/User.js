@@ -3,6 +3,8 @@ import memoji from "../../../assets/memoji.png";
 import memoji2 from "../../../assets/2memoji.png";
 import memoji3 from "../../../assets/memoji3.png";
 import memoji4 from "../../../assets/1memoji.png";
+import cardOne from "../../../assets/Diamante/6Diamante.png";
+import cardTwo from "../../../assets/CartaBack.png";
 const User = () => {
   return (
     <div>
@@ -12,6 +14,12 @@ const User = () => {
             <Image src={memoji4} alt="icon" className=" rounded-full" />
           </div>
         </div>
+      </div>
+      <div className="absolute top-[88%] left-[50%]">
+        <Image src={cardTwo} alt="img" width={53} height={78} />
+      </div>
+      <div className="absolute top-[88%] left-[51.6%]">
+        <Image src={cardOne} alt="img" width={53} height={78} />
       </div>
       <div className="absolute rounded-sm w-48 bg-gradient-to-l from-userSeven to-userEight border-2 border-borderUser2 h-16 flex justify-center items-center flex-col top-[98%] left-[46%]">
         <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
