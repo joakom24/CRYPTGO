@@ -3,7 +3,7 @@ import table from "../../../assets/tablePoker.png";
 import Image from "next/image";
 const Table = () => {
   return (
-    <div className="absolute w-full h-5/6 flex justify-center items-center">
+    <div className="absolute top-[18%] left-[25%] ">
       <Image src={table} alt="tablePoker" />
     </div>
   );

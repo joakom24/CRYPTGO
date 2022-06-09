@@ -13,10 +13,9 @@ const User = () => {
           </div>
         </div>
       </div>
-
       <div className="absolute rounded-sm w-48 bg-gradient-to-l from-userSeven to-userEight border-2 border-borderUser2 h-16 flex justify-center items-center flex-col top-[98%] left-[46%]">
         <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-          Juan Carlos
+          Jorge
         </h1>
         <h3 className="font-medium text-white text-sm">10.000,00</h3>
       </div>
@@ -37,7 +36,7 @@ const User = () => {
         </div>
         <div className="absolute rounded-sm w-40 bg-gradient-to-l from-userThree to-userFour border-1 border-borderUser2 h-14 flex justify-center items-center flex-col top-[49.5%] left-[15.5%]">
           <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-            Juan Carlos
+            Sofía
           </h1>
           <h3 className="font-medium text-white text-sm">20.000,00</h3>
         </div>
@@ -48,7 +47,7 @@ const User = () => {
         </div>
         <div className="absolute rounded-sm w-40 bg-gradient-to-l from-userFive to-userSix border-1 border-borderUser3 h-14 flex justify-center items-center flex-col top-[25.5%] left-[16%]">
           <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-            Juan Carlos
+            María
           </h1>
           <h3 className="font-medium text-white text-sm">10.000,00</h3>
         </div>
@@ -59,7 +58,7 @@ const User = () => {
         </div>
         <div className="absolute rounded-sm w-40 bg-gradient-to-l from-userThree to-userFour border-1 border-borderUser2 h-14 flex justify-center items-center flex-col top-[1%] left-[34%]">
           <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-            Juan Carlos
+            Belu
           </h1>
           <h3 className="font-medium text-white text-sm">50.000,00</h3>
         </div>
@@ -70,7 +69,7 @@ const User = () => {
         </div>
         <div className="absolute rounded-sm w-40 bg-gradient-to-l from-user to-userTwo border-1 border-borderUser h-14 flex justify-center items-center flex-col top-[1%] left-[58.5%]">
           <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-            Juan Carlos
+            Joaquín
           </h1>
           <h3 className="font-medium text-white text-sm">120.000,00</h3>
         </div>
@@ -81,7 +80,7 @@ const User = () => {
         </div>
         <div className="absolute rounded-sm w-40 bg-gradient-to-l from-userFive to-userSix border-1 border-borderUser3 h-14 flex justify-center items-center flex-col top-[20.5%] left-[72.5%]">
           <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-            Juan Carlos
+            Agustina
           </h1>
           <h3 className="font-medium text-white text-sm">5.000,00</h3>
         </div>
@@ -92,7 +91,7 @@ const User = () => {
         </div>
         <div className="absolute rounded-sm w-40 bg-gradient-to-l from-userThree to-userFour border-1 border-borderUser2 h-14 flex justify-center items-center flex-col top-[49.5%] left-[74.5%]">
           <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-            Juan Carlos
+            Fernanda
           </h1>
           <h3 className="font-medium text-white text-sm">220.000,00</h3>
         </div>
@@ -103,7 +102,7 @@ const User = () => {
         </div>
         <div className="absolute rounded-sm w-40 bg-gradient-to-l from-user to-userTwo border-1 border-borderUser h-14 flex justify-center items-center flex-col top-[74.6%] left-[64.3%]">
           <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
-            Juan Carlos
+            Manuel
           </h1>
           <h3 className="font-medium text-white text-sm">10.000,00</h3>
         </div>
