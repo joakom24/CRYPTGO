@@ -15,6 +15,7 @@ module.exports = {
       full: "9999px",
       rounded: "0.25rem",
       sm: "10px",
+      money: "20px 20px 20px 0px",
     },
     colors: {
       whiteCustom: "rgba(255, 255, 255, 0)",
@@ -52,12 +53,10 @@ module.exports = {
         0.2: "1px",
       },
       width: {
-        1024: "70vw",
-        1025: "83vw",
+        1024: "80vw",
       },
       height: {
-        1024: "calc( 70vw / 16 * 9 )",
-        1025: "calc( 78vw / 16 * 9)",
+        1024: "calc( 60vw / 16 * 9 )",
       },
       boxShadow: {
         "3xl": "0 0 50px  rgba(51, 233, 198, 0.3)",

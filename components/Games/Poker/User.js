@@ -5,8 +5,6 @@ import memoji3 from "../../../assets/memoji3.png";
 import memoji4 from "../../../assets/1memoji.png";
 import letter from "../../../assets/letter.png";
 import battery from "../../../assets/battery.png";
-import cardThree from "../../../assets/cardAHeart.png";
-import cardOne from "../../../assets/cardDefault.png";
 const User = () => {
   return (
     <div>
@@ -18,12 +16,7 @@ const User = () => {
             </div>
           </div>
         </div>
-        <div className="absolute ml-[30%]">
-          <Image src={cardOne} alt="icon" />
-        </div>
-        <div className="absolute ml-[32%] mt-1">
-          <Image src={cardThree} alt="icon" />
-        </div>
+
         <div className="absolute ml-[39%] mt-[7.5%] z-10">
           <Image src={letter} alt="icon" width={80} height={80} />
         </div>

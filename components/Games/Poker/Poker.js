@@ -16,10 +16,10 @@ const Poker = () => {
   return (
     //PokerInterface
     <main className=" bg-[url('../assets/backgroundPoker.jpg')] bg-no-repeat bg-cover left-0 top-0 h-screen w-screen overflow-hidden flex justify-center items-center">
-      <div className=" relative w-screen max-h-1024  m-40">
+      <div className=" relative w-1024 h-1024  ">
         <ButtonsTop />
         {/*ImagePokerTable*/}
-        <div className="relative w-1024 h-1024" id="gameview">
+        <div className="  h-1024" id="gameview">
           <Table />
           {/*POT*/}
           <Pot />
@@ -30,13 +30,11 @@ const Poker = () => {
           {/*Users*/}
           <User />
         </div>
-        <div className="flex relative justify-between items-end ">
+        <div className="flex absolute justify-between items-end w-full">
           {/*Buttons play*/}
-          <div className="relative ">
-            <ButtonsLeft />
-          </div>
+          <ButtonsLeft />
           {/*Buttons right*/}
-          <div className=" text-white right-4 flex relative justify-center items-end ">
+          <div className=" text-white  flex absolute justify-end w-full">
             {/*Buttom number*/}
             <ButtonNumber />
             <div className="bg-gradient-to-r from-whiteCustom via-white to-whiteCustom   flex justify-center py-0.2 rounded-large">
