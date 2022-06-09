@@ -17,6 +17,7 @@ module.exports = {
       sm: "10px",
     },
     colors: {
+      whiteCustom: "rgba(255, 255, 255, 0)",
       user: "rgba(244, 116, 225, 1)",
       pot: "#FFAB2D",
       pot4: "#FFD700",
@@ -46,11 +47,16 @@ module.exports = {
     },
 
     extend: {
+      padding: {
+        0.2: "1px",
+      },
       width: {
         1024: "70vw",
+        1025: "83vw",
       },
       height: {
         1024: "calc( 70vw / 16 * 9 )",
+        1025: "calc( 78vw / 16 * 9)",
       },
       boxShadow: {
         "3xl": "0 0 50px  rgba(51, 233, 198, 0.3)",

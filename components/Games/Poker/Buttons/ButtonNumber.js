@@ -1,8 +1,10 @@
 const ButtonNumber = () => {
   return (
-    <button className="mr-2  bg-primary px-4 py-4 rounded-sm  border-t-1 border-buttom border-b-1 drop-shadow-5xl">
-      20
-    </button>
+    <div className="bg-gradient-to-r from-whiteCustom via-white to-whiteCustom rounded-sm mr-2 py-0.2 ">
+      <h3 className=" bg-primary px-1.5 py-1.5 rounded-sm drop-shadow-5xl font-medium text-xl ">
+        20
+      </h3>
+    </div>
   );
 };
 
