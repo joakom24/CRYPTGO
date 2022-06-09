@@ -35,6 +35,7 @@ module.exports = {
         "linear-gradient(92.65deg, rgba(255, 255, 255, 0) -1.6%, #FFFFFF 57.12%, rgba(255, 255, 255, 0) 104.04%)",
       black: "#000",
       primary: "#0B1E3E",
+      ultimate: "rgba(51, 233, 198, 0.132)",
       borders: "#33E9E9",
       secondary: "rgba(51, 233, 198, 0.15)",
       white: "#fff",

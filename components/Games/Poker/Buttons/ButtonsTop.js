@@ -32,7 +32,7 @@ const ButtonsTop = () => {
   };
 
   return (
-    <section className="absolute h-full w-full flex  items-start">
+    <section className="flex relative">
       {/*BackArrowIcon*/}
       <button>
         <Image src={back} alt="backIcon" />
