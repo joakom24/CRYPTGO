@@ -1,8 +1,5 @@
 //Components
 import ButtonMove from "./Buttons/ButtonMove";
-import ButtonNumber from "./Buttons/ButtonNumber";
-import ButtonAdd from "./Buttons/ButtonAdd";
-import ButtonLess from "./Buttons/ButtonLess";
 import ButtonsLeft from "./Buttons/ButtonsLeft";
 import ButtonsTop from "./Buttons/ButtonsTop";
 import Money from "./Money";
@@ -35,20 +32,7 @@ const Poker = () => {
           {/*Buttons play*/}
           <ButtonsLeft />
           {/*Buttons right*/}
-          <div className=" text-white  flex absolute justify-end w-full">
-            {/*Buttom number*/}
-            <ButtonNumber />
-            <div className="bg-gradient-to-r from-whiteCustom via-white to-whiteCustom   flex justify-center py-0.2 rounded-large">
-              <div className="bg-primary flex justify-between items-center w-96 rounded-large max-h-12 ">
-                {/*Button less*/}
-                <ButtonLess />
-                {/*Button move*/}
-                <ButtonMove />
-                {/*Buttons add*/}
-                <ButtonAdd />
-              </div>
-            </div>
-          </div>
+          <ButtonMove />
         </div>
       </div>
     </main>
