@@ -9,7 +9,6 @@ import ButtonsTop from "./Buttons/ButtonsTop";
 import Money from "./Money";
 import Cards from "./Cards";
 import User from "./User";
-import Winner from "../../../assets/winner.png";
 import Table from "./Table";
 import Pot from "./Pot";
 const Poker = () => {
@@ -48,9 +47,6 @@ const Poker = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="absolute left-[78%] bottom-[40%]">
-          <Image src={Winner} alt="img" />
         </div>
       </div>
     </main>
