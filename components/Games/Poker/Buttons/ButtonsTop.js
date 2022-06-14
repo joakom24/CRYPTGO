@@ -32,7 +32,7 @@ const ButtonsTop = () => {
   };
 
   return (
-    <section className="flex relative">
+    <section className="flex ">
       {/*BackArrowIcon*/}
       <button>
         <Image src={back} alt="backIcon" />

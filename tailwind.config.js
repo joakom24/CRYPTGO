@@ -69,10 +69,10 @@ module.exports = {
         0.2: "1px",
       },
       width: {
-        1024: "80vw",
+        1024: "85vw",
       },
       height: {
-        1024: "calc( 60vw / 16 * 9 )",
+        1024: "calc( 56vw / 16 * 9 )",
       },
       boxShadow: {
         "3xl": "0 0 50px  rgba(51, 233, 198, 0.3)",

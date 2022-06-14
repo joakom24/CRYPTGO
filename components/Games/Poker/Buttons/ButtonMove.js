@@ -12,7 +12,7 @@ const ButtonMove = () => {
     setNumber(number - 1);
   };
   return (
-    <div className=" text-white  flex absolute justify-end w-full">
+    <div className=" text-white  flex absolute justify-end w-[100%] ml-[5%]">
       {/*Buttom number*/}
       <div className="bg-gradient-to-r from-whiteCustom via-white to-whiteCustom rounded-sm mr-2 py-0.2 ">
         <input
