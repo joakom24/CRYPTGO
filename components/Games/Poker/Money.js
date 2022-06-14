@@ -54,7 +54,7 @@ const Money = () => {
           <h5 className="text-white pr-1 text-xs">1000</h5>
         </div>
       </div>
-      <div className="absolute flex items-center justify-center left-[65.5%] top-[38%]">
+      <div className="absolute flex items-center justify-center left-[67%] top-[38%]">
         <div className="z-10 bg-pot rounded-full h-6">
           <Image src={money4} alt="money" width={21} height={30} />
         </div>
