@@ -25,7 +25,7 @@ const Poker = () => {
           {/*Users*/}
           <User />
         </div>
-        <div className="flex absolute justify-between items-end w-full">
+        <div className="flex absolute justify-between top-[115%] w-full">
           {/*Buttons play*/}
           <ButtonsLeft />
           {/*Buttons right*/}

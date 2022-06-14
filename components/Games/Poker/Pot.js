@@ -2,14 +2,14 @@ import React from "react";
 
 const Pot = () => {
   return (
-    <section className=" w-full h-full flex justify-center absolute top-[32%]">
+    <section className=" w-full   justify-center absolute top-[36%]">
       <div className="flex gap-1 w-full justify-center mix-blend-hard-light ">
-        <div className="rounded-pot2 border-2 border-pot drop-shadow-1xl h-[4%] w-[4.5%] bg-[rgba(255, 146, 45, 0.2)] mix-blend-hard-light ">
+        <div className="rounded-pot2 border-2 border-pot drop-shadow-1xl h-[5.5%] w-[4.8%] bg-[rgba(255, 146, 45, 0.2)] mix-blend-hard-light ">
           <h3 className="font-bold  flex justify-center items-center  bg-gradient-to-r from-[#EDD582] to-[#B99208] drop-shadow-1xl fill-transparent bg-clip-text text-pot4">
             POT
           </h3>
         </div>
-        <h1 className=" font-medium text-white border-1 border-white w-[10%] h-[4%] rounded-pot text-sm flex justify-center items-center">
+        <h1 className=" font-medium text-white border-1 border-white w-[10%] h-[5.5%] rounded-pot text-sm flex justify-center items-center">
           100.000,00
         </h1>
       </div>
