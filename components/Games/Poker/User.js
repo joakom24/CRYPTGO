@@ -5,7 +5,16 @@ import memoji3 from "../../../assets/memoji3.png";
 import memoji4 from "../../../assets/1memoji.png";
 import cardOne from "../../../assets/Diamante/6Diamante.png";
 import cardTwo from "../../../assets/CartaBack.png";
+import Back from "../../../assets/CartaBack.png";
+import { useEffect, useState } from "react";
 const User = () => {
+  const [card, setCard] = useState(false)
+  useEffect(() => {
+    setTimeout(()=>{
+      setCard(true)
+     }, 2000)
+    
+  });
   return (
     <div>
       <div className="rounded-full absolute bg-userPoker shadow-7xl  h-[23%] w-[9%] top-[96%] z-10 left-[39.5%] flex justify-center">
@@ -15,12 +24,26 @@ const User = () => {
           </div>
         </div>
       </div>
+      {card ? 
+      <>
+        <div className="absolute top-[90%] left-[50%]">
+          <Image src={cardTwo} alt="img" width={53} height={78} />
+        </div>
+        <div className="absolute top-[90%] left-[51.6%]">
+          <Image src={cardOne} alt="img" width={53} height={78} />
+        </div>
+      </>
+      : 
+      <>
       <div className="absolute top-[90%] left-[50%]">
-        <Image src={cardTwo} alt="img" width={53} height={78} />
+        <Image src={Back} alt="img" width={53} height={78} />
       </div>
       <div className="absolute top-[90%] left-[51.6%]">
-        <Image src={cardOne} alt="img" width={53} height={78} />
+        <Image src={Back} alt="img" width={53} height={78} />
       </div>
+      </>
+      }
+      
       <div className="absolute rounded-sm w-[14%] bg-gradient-to-l from-userSeven to-userEight border-2 border-borderUser2 h-[12%] flex justify-center items-center flex-col top-[105%] left-[46%]">
         <h1 className="font-medium text-white text-l drop-shadow-6xl leading-6">
           Jorge
