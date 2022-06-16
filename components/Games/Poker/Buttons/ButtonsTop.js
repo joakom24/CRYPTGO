@@ -1,8 +1,8 @@
 import { useState } from "react";
 import back from "../../../../assets/backArrow.png";
-import expand from "../../../../assets/expandIcon.png";
-import audio from "../../../../assets/audioIcon.png";
+import {FaExpand} from 'react-icons/fa'
 import Image from "next/image";
+import AudioPlayer from "./AudioPlayer";
 const ButtonsTop = () => {
   const [fullscreen, setFullscreen] = useState(false);
   const fullscreenHandler = () => {
@@ -39,17 +39,11 @@ const ButtonsTop = () => {
       </button>
       <div className="flex z-10 h-full w-full items-start justify-end gap-8">
         {/*ExpandIcon*/}
-        <button onClick={() => fullscreenHandler()}>
-          <Image
-            src={expand}
-            alt="expandIcon"
-            onClick={() => fullscreenHandler()}
-          />
-        </button>
+      
+          <FaExpand color="white" onClick={() => fullscreenHandler()}/>
+    
         {/*AudioIcon*/}
-        <button>
-          <Image src={audio} alt="audioIcon" />
-        </button>
+        <AudioPlayer />
       </div>
     </section>
   );
