@@ -7,7 +7,17 @@ import Cards from "./Cards";
 import User from "./User";
 import Table from "./Table";
 import Pot from "./Pot";
+import UserNotCards from "./UserWithCards";
+import { useEffect, useState } from "react";
 const Poker = () => {
+  const [justDeal, setJustDeal] = useState(true)
+  const [cardsTable, setCardsTable] = useState(true)
+  useEffect(() => {
+    setTimeout(()=>{
+      setJustDeal(false)
+      setCardsTable(false)
+     }, 2000)
+    })
   return (
     //PokerInterface
     <main className=" bg-[url('../assets/backgroundPoker.jpg')] bg-no-repeat bg-cover left-0 top-0 h-screen w-screen overflow-hidden flex justify-center items-center">
@@ -21,9 +31,11 @@ const Poker = () => {
           {/*MoneyImg*/}
           <Money />
           {/*Cards*/}
-          <Cards />
+          {cardsTable ?  null : <Cards className="bg-red.500"/>}
+          
           {/*Users*/}
-          <User />
+          {justDeal ? <User /> : <UserNotCards />}
+         
         </div>
         <div className="flex absolute justify-between top-[115%] w-full">
           {/*Buttons play*/}
