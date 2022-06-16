@@ -31,7 +31,7 @@ const Poker = () => {
           {/*MoneyImg*/}
           <Money />
           {/*Cards*/}
-          {cardsTable ?  null : <Cards className="bg-red.500"/>}
+          {cardsTable ?  null : <Cards />}
           
           {/*Users*/}
           {justDeal ? <User /> : <UserNotCards />}

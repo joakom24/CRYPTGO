@@ -1,15 +1,15 @@
-import {FaVolumeMute, FaVolumeUp } from "react-icons/fa";
+import {FaArrowLeft, FaArrowRight, FaVolumeMute, FaVolumeUp } from "react-icons/fa";
 import {Howl, Howler} from 'howler';
 import store from "../../../../store/reducers/store";
 import setVolume from "../../../../store/actionCreators/setVolume";
 import { useEffect, useState } from "react";
 
 const AudioPlayer = ({ url, loop, slider, list }) => {
-    const [playing, setPlaying] = useState(false);
+    const [playing, setPlaying] = useState(true);
     const [volumeLevel, setVolumeLevel] = useState(store.getState().volume);
   
     const [audio] = useState(new Howl({
-      src: [url],
+      src: ['assets/sound/background-music-1.mp3'],
       loop
     }))
   
@@ -34,7 +34,8 @@ const AudioPlayer = ({ url, loop, slider, list }) => {
     <div>
       <div className="absolute right-[0%] top-[0%] " onClick={() => {setPlaying(!playing); toggle()}}>{!playing ? <FaVolumeMute color="white"/> : <FaVolumeUp color="white"/>}</div>
       {slider && !playing ? 
-        <div
+        <input
+        className="absolute top-[1%] right-[1%] z-99 h-1 w-3 bg-user opacity-5 transition-duration 2s redounded-full border-2"
           type="range"
           min={0}
           max={1}
@@ -45,7 +46,13 @@ const AudioPlayer = ({ url, loop, slider, list }) => {
           }} 
         />
       : ''}
-      
+      {list && !playing ? (
+        <div className="flex items-center justify-center cursor-pointer bg-user border-2 p-2">
+          <button><FaArrowLeft/></button>
+          <button><FaArrowRight/></button>
+        </div>
+      ) : ''}
+
     </div>
 
   )

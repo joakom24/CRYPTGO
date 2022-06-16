@@ -29,11 +29,11 @@ const UserNotCards = () => {
       </div>
       {card ? 
       <>
-        <div className="absolute top-[90%] left-[50%]">
+        <div className="absolute top-[92%] left-[50%]">
           <Image src={cardTwo} alt="img" width={53} height={78} />
         </div>
-        <div className="absolute top-[90%] left-[51.6%]">
-          <Image src={cardOne} alt="img" width={53} height={78} />
+        <div className="absolute top-[92%] left-[51.6%]">
+          <Image src={cardOne} alt="img" width={53} height={78}/>
         </div>
       </>
       : 
