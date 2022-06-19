@@ -4,7 +4,7 @@ import store from "../../../../store/reducers/store";
 import setVolume from "../../../../store/actionCreators/setVolume";
 import { useEffect, useState } from "react";
 
-const AudioPlayer = ({ url, loop, slider, list }) => {
+const AudioPlayer = ({ loop, slider, list }) => {
     const [playing, setPlaying] = useState(true);
     const [volumeLevel, setVolumeLevel] = useState(store.getState().volume);
   
