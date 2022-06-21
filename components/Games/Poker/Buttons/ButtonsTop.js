@@ -4,34 +4,8 @@ import { FaExpand } from "react-icons/fa";
 import Image from "next/image";
 import Link from 'next/link'
 import AudioPlayer from "./AudioPlayer";
-const ButtonsTop = () => {
-	const [fullscreen, setFullscreen] = useState(false);
-	const fullscreenHandler = () => {
-		const elem = document.querySelector("#gameview");
-		if (fullscreen && document.fullscreenElement) {
-			if (document.exitFullscreen) {
-				document.exitFullscreen();
-			} else if (document.webkitExitFullscreen) {
-				/* Safari */
-				document.webkitExitFullscreen();
-			} else if (document.msExitFullscreen) {
-				/* IE11 */
-				document.msExitFullscreen();
-			}
-		} else {
-			if (elem.requestFullscreen) {
-				elem.requestFullscreen();
-			} else if (elem.webkitRequestFullscreen) {
-				/* Safari */
-				elem.webkitRequestFullscreen();
-			} else if (elem.msRequestFullscreen) {
-				/* IE11 */
-				elem.msRequestFullscreen();
-			}
-		}
-		return setFullscreen(!fullscreen);
-	};
-
+import { FaCompressAlt } from "react-icons/fa";
+const ButtonsTop = ({handle}) => {
 	return (
 		<section className='flex '>
 			{/*BackArrowIcon*/}
@@ -40,11 +14,10 @@ const ButtonsTop = () => {
 			</button>
 			<div className='flex z-10 h-full w-full items-start justify-end gap-8'>
 				{/*ExpandIcon*/}
-
-				<FaExpand color='white' onClick={() => fullscreenHandler()} />
-
+				{handle.active ? <FaCompressAlt color='white' onClick={handle.exit} /> :  <FaExpand color='white' onClick={handle.enter} />}
 				{/*AudioIcon*/}
 				<AudioPlayer />
+				
 			</div>
 		</section>
 	);

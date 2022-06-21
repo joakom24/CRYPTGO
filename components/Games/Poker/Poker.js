@@ -6,10 +6,13 @@ import Money from "./Money";
 import Cards from "./Cards";
 import User from "./User";
 import Table from "./Table";
+import { FullScreen, useFullScreenHandle } from "react-full-screen";
+import { FaCompressAlt } from "react-icons/fa";
 import Pot from "./Pot";
 import UserNotCards from "./UserWithCards";
 import { useEffect, useState } from "react";
 const Poker = () => {
+	const handle = useFullScreenHandle();
 	const [justDeal, setJustDeal] = useState(true);
 	const [cardsTable, setCardsTable] = useState(true);
 	useEffect(() => {
@@ -19,10 +22,11 @@ const Poker = () => {
 		}, 2000);
 	});
 	return (
-		//PokerInterface
+		<>
+		<FullScreen handle={handle}>	
 		<main className=" bg-[url('../public/assets/backgroundPoker.jpg')] bg-no-repeat bg-cover left-0 top-0 h-screen w-screen overflow-hidden flex justify-center items-center">
 			<div className=' absolute w-1024 h-1024 top-[10%]'>
-				<ButtonsTop />
+				<ButtonsTop handle={handle}/>
 				{/*ImagePokerTable*/}
 				<div className='h-1024'>
 					<Table />
@@ -44,6 +48,7 @@ const Poker = () => {
 				</div>
 			</div>
 		</main>
+		</FullScreen></>
 	);
 };
 
